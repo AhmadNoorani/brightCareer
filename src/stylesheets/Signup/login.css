@@ -1,0 +1,107 @@
+#login {
+    background-color: var(--bg);
+    padding: 5rem 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#login .login-form {
+    padding:5rem;
+    border: 5px double var(--textDark); 
+    border-radius: 15px;
+    box-shadow: var(--boxShadow);
+}
+
+.login-heading {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--gredient);
+    text-align: center;
+}
+.login-heading h3 {
+    color: var(--white);
+    margin: 0 !important;
+}
+#login .action-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login .action-btn .btn.btn-primary {
+    margin: 0rem 1rem;
+    width: 6rem;
+}
+#login .action-btn .btn.btn-success {
+    margin: 0rem 1rem;
+    width: 6rem;
+}
+
+#login .login-form p {
+    color: red;
+    padding: 0.1rem;
+    border: 2px dashed red;
+    background-color: bisque;
+}
+.muted-text{
+    color: red;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.red-text{
+    color: red;
+}
+.sign-button a{
+    color: var(--textDark);
+}
+.sign-button a:hover{
+    color: var(--secondary);
+}
+
+
+@media (max-width:1280px) {
+    #login {
+        padding: 3rem 6rem;
+    }
+
+    #login .login-form {
+        padding: 2rem 3rem;
+    }
+
+}
+
+@media (max-width:1024px) {
+    #login {
+        padding: 3rem;
+    }
+    #login .login-form {
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width:820px) {
+    #login {
+        padding: 3rem;
+    }
+    #login .login-form {
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width:578px) {
+    #login {
+        padding: 2rem;
+    }
+    #login .login-form {
+        padding: 2rem;
+    }
+
+}
+@media (max-width:420px) {
+    #login {
+        padding: 1.2rem;
+    }
+    #login .login-form {
+        padding: 1.22rem;
+    }
+}

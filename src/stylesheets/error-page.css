@@ -1,0 +1,29 @@
+.error-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #88bdbc 0% , #46a19e 40% , #254e58 100%);
+}
+.error-page h1 , .error-page-text{
+    text-align: center;
+    color: var(--white);
+}
+.error-page .error-page-text a{
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--dark) !important;
+    border-radius: 1rem;
+    border: none !important;
+}
+.error-page .error-page-text a:hover{
+    border: 2px solid white !important;
+    
+    background-color: var(--primary) !important;
+}
+.error-page .error-page-text .button{
+    margin-top: 3rem;
+    
+}

@@ -1,0 +1,116 @@
+#contact-us {
+    background-color: var(--bg);
+    padding: 3rem 8rem;
+    padding-top: 5rem !important;
+}
+#contact-us .contact-us-form {
+    padding: 2rem 4rem;
+    border: 2px dashed var(--textDark);
+}
+
+.contact-us-heading {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: var(--gredient);
+}
+.contact-us-heading h3 {
+    color: var(--white);
+    text-align: center;
+    margin: 0 !important;
+}
+.contact-us-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+.contact-us-info p {
+    margin: 0 !important;
+    padding-left: 10px;
+    color: var(--textDark);
+}
+#contact-us .action-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us .action-btn .btn.btn-primary {
+    margin: 0rem 1rem;
+    width: 6rem;
+}
+#contact-us .action-btn .btn.btn-success {
+    margin: 0rem 1rem;
+    width: 6rem;
+}
+.contact-us-text h5 {
+    margin: 0 !important;
+    color: var(--textDark);
+}
+#contact-us .contact-us-form p {
+    color: red;
+    padding: 0.1rem;
+    border: 2px dashed red;
+    
+}
+.muted-text{
+    color: red;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.red-text{
+    color: red;
+}
+#contact-us select.form-select{
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width:1280px) {
+    #contact-us {
+        padding: 3rem 6rem;
+    }
+
+    #contact-us .contact-us-form {
+        padding: 2rem 3rem;
+    }
+
+}
+
+@media (max-width:1024px) {
+    #contact-us {
+        padding: 3rem;
+    }
+    #contact-us .contact-us-form {
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width:820px) {
+    #contact-us {
+        padding: 3rem;
+    }
+    #contact-us .contact-us-form {
+        padding: 2rem 3rem;
+    }
+    .contact-us-text{
+        display: none;
+    }
+}
+
+@media (max-width:578px) {
+    #contact-us {
+        padding: 2rem;
+    }
+    #contact-us .contact-us-form {
+        padding: 2rem;
+    }
+
+}
+@media (max-width:420px) {
+    #contact-us {
+        padding: 1.2rem;
+    }
+    #contact-us .contact-us-form {
+        padding: 1.22rem;
+    }
+}

@@ -1,0 +1,82 @@
+#onlineReg{
+    padding:3rem 8rem ;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg);
+}
+.online-reg-heading h2{
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    text-decoration: underline;
+    font-weight: 700;
+    color: var(--textDark);
+   
+}
+#onlineReg .qr-image img{
+    width: 250px; 
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px dashed var(--textDark);
+}
+#onlineReg .qr-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#onlineReg .online-reg-content h4 {
+    background: var( --gredient);
+    color:  var(--white);
+    padding: 1rem 1.5rem;
+}
+#pay-button{
+    background: var(--gredient) !important;
+    border: none !important;
+    padding: 0.5rem 1rem;
+}
+#pay-button:hover{
+    background: var(--boxHov) !important;
+}
+#pay-button:active{
+    color: var(--textDark);
+}
+.online-reg-content-box li{
+    color: var(--textDark);
+}
+@media (max-width:1280px){
+    #onlineReg{
+        padding:3rem 6rem ;
+    }
+
+}
+
+@media (max-width:1024px){
+    #onlineReg{
+        padding:3rem 4rem ;
+    }
+
+}
+@media (max-width:820px){
+    #onlineReg .qr-image {
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+    #pay-button{
+        margin: 0 2rem;
+    }
+}
+@media (max-width:420px){
+    #onlineReg{
+        padding:1rem 2rem ;
+    }
+    #onlineReg .qr-image {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    #pay-button{
+        margin: 0 2rem;
+    }
+}

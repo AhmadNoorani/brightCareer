@@ -1,0 +1,51 @@
+:root {
+
+    /* main */
+    --gredient: linear-gradient( #4294c2   0%, #0075a2 100%  );
+    --textDark:#005878;
+    --secondary:#0075a2;
+    --contrast: #9de6fa;
+    --bg: #d8f5fe;
+    --white: #ffffff;
+    --black: #000000;
+    --boxHov: linear-gradient( #0075a2 0%,  #4294c2 100% );
+    --boxShadow: 2px 2px 3px #07384a;
+
+}
+
+
+
+
+ /* --teal: #88bdbc;
+  --teal2: #369c9b;
+  --dark: #254e58;
+  --sec: #4f4a41;
+  --contrast: #afd275;
+  --contrast2: #7fffd4 ;
+  --white: #ffffff;
+  --grey:#c2cad0;
+  --grey2:#d4d7da; 
+/*   
+  --primary:#46a19e ;
+  --dark: #254e58;
+  --contrast:#c8ecec ;
+  --contrast2:#4294c2 ;
+  --bg1:#eefafb;
+  --white: #ffffff;
+  --black: #000000; */
+
+  /* BLUE SHADES
+  --blu:#0075a2;
+  --blueShade: #075b79;
+  --blueShadeDisable: #4294c2;
+  --lightBlue: #50C6DF;
+  --lightBlue2: #9de6fa;
+  --bgLightBlue: #d3ecf3;
+  --bgLightBlue2: #ecf3f9; */
+
+    /* NEON SHADES */
+    /* --neonLight: #00c1c7;
+    --neonNutral: #29bec1; */
+  
+  
+  

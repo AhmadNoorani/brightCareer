@@ -1,0 +1,82 @@
+#abtContent {
+    padding: 3rem 8rem;
+}
+#abtContent .images img{
+    width: 100%;
+} 
+ #abtContent .ab-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#abtContent .ab-content .abc-textBox{
+    padding-left: 3rem;
+}
+#abtContent .ab-content .abc-textBox h3{
+    color: var(--textDark);  
+    font-weight: 700;
+}
+#abtContent .ab-content .abc-textBox li{
+    color: var(--textDark);
+    font-size: 20px;  
+}
+#abtContent .ab-content .abc-textBox p{
+    color: var(--textDark);
+    font-size: 20px;  
+}
+
+ @media (max-width: 1280px) {
+
+    #abtContent .ab-content .abc-textBox li{
+      
+        font-size: 18px;  
+    }
+    #abtContent .ab-content .abc-textBox p{
+       
+        font-size: 18px;  
+    }
+    
+ }
+
+ @media (max-width: 1024px) {
+    #abtContent {
+        padding: 2rem 4rem;
+    }
+
+    #abtContent .ab-content .abc-textBox{
+        padding-left: 2rem;
+    }
+
+    #abtContent .ab-content .abc-textBox li{
+      
+        font-size: 16px;  
+    }
+    #abtContent .ab-content .abc-textBox p{
+       
+        font-size: 16px;  
+        margin-bottom: 8px;
+    }
+    
+ }
+
+ @media (max-width:578px) {
+
+    #abtContent {
+        padding: 1rem 2.5rem;
+    }
+
+    #abtContent .images img{
+       display: none;
+    } 
+    #abtContent .ab-content .abc-textBox{
+        padding-left: 0rem;
+    }
+    #abtContent .ab-content .abc-textBox p{
+        font-size: 14px;   
+    }
+
+    #abtContent .ab-content .abc-textBox li{
+        font-size: 14px;   
+    }
+    
+ }

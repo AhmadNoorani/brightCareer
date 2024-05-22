@@ -1,0 +1,150 @@
+#wwr{
+    color: var(--textDark);
+    background: var(--gredient);
+    padding: 0 8rem;
+}
+#wwr .wwr-image img{
+    width: 100%;
+}
+.wwr-heading h1 { 
+    color: var(--white);
+    font-weight: 700;    
+    text-shadow: 1px 1px 2px rgb(45, 42, 42); 
+    padding: 0.775rem 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+#wwr p{
+    color: var(--white);  
+}
+.wwr-text{
+    padding: 0rem 4rem;
+    font-size: 18px;
+}
+
+@media (max-width:1280px) {
+    #wwr{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width:1024px) {
+    #wwr{
+        padding: 0 3rem;
+    }
+    .wwr-heading h1 { 
+        padding: 0.775rem 3rem;
+        font-size: 2rem;
+    }
+    .wwr-text{
+        padding: 0rem 2rem;
+        font-size: 16px;
+    } 
+}
+
+@media (max-width:820px) {
+    .wwr-heading h1 { 
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+    }
+  
+    .wwr-text{
+        padding: 0rem ;
+        font-size: 16px;
+    } 
+    .off820{
+        display: none !important;
+    }
+}
+
+@media (max-width:420px) {
+    #wwr{
+        padding: 0 2rem;
+    }
+    .wwr-heading h1 , .wwd-heading h1 { 
+        font-size: 1.8rem;
+    }
+    .wwr-text{
+        padding-bottom: 1rem ;
+        font-size: 16px;
+    } 
+}
+
+
+/* ////// WHAT WE DO */
+
+#wwd{
+    color: var(--textDark);
+    position: relative;
+    background-color: var(--bg);
+    padding: 0 8rem;
+}
+#wwd .wwd-image img{
+    width: 100%;
+}
+
+#wwd p{
+    color: var(--dark);  
+}
+#wwd .wwd-heading h1{
+    color: var(--textDark); 
+    font-weight: 700; 
+    padding: 0.775rem 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.wwd-text{
+
+    padding: 0rem 4rem;
+    font-size: 18px;
+}
+
+@media (max-width:1280px) {
+    #wwd{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width:1024px) {
+    #wwd{
+        padding: 0 3rem;
+    }
+    .wwd-heading h1 { 
+        padding: 0.775rem 3rem;
+        font-size: 2rem !important;
+    }
+    .wwd-text{
+        padding: 0rem 2rem;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:820px) {
+    #wwd{
+        padding: 0 3rem;
+    }
+    .wwd-heading h1 { 
+        padding: 0.5rem 1rem !important;
+        font-size: 1.5rem !important;
+    }
+    .wwd-text{
+        padding: 0rem ;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:420px) {
+    #wwd{
+        padding: 1rem 2rem !important;
+    }
+    .wwd-heading h1 { 
+        font-size: 1.8rem !important;
+    }
+    .wwd-text{
+        padding-bottom: 1rem !important;
+        font-size: 16px;
+    } 
+    /* #wwd .wwd-image img{
+        display: none !important;
+    } */
+}

@@ -1,0 +1,44 @@
+#current-job{
+    padding: 3rem 8rem;
+    padding-top: 5rem;  
+    background-color: var(--bg);
+}
+.current-job-head h3{
+    color: var(--textDark);
+    font-weight: 700;
+}
+.current-job-head p{
+    color: var(--textDark);
+}
+.searching-header h6{
+    color: var(--textDark);
+}
+.form-label{
+    color: var(--textDark) !important;
+}
+.searching-header{
+    border-bottom: 2px solid var(--textDark);
+    margin-bottom: 1rem;
+}
+#current-job .search-form .col-lg-3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.search-form{
+    border-bottom: 2px solid var(--textDark);
+    padding-bottom: 0.5rem;
+}
+.search-form .btn{
+    background: var(--gredient);
+    border: none !important;
+    width: 5rem;
+    margin: 0 1rem;
+}
+.search-form .btn:hover{
+    background: var(--boxHov);
+}
+th ,td{
+    color: var(--textDark) !important;
+}
